@@ -658,7 +658,7 @@ main.hidden {
 
 /*---advantages---*/
 .blog-preview {
-	padding: 130px 0 105px;
+	padding: 0px 0 105px;
 }
 
 .blogs__list {
@@ -698,6 +698,7 @@ main.hidden {
 
 .article__author {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 
 	font-size: 18px;
