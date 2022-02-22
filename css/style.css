@@ -302,7 +302,7 @@ main.hidden {
 
 	height: 1055px;
 
-	background-image: url("../images/presentation/index-presentation/presentation-meat.jpg");
+	background-image: url("../images/presentation/index-presentation/presentation-meat.webp");
 	background-position: bottom right;
 	background-repeat: no-repeat;
 }
@@ -390,7 +390,7 @@ main.hidden {
 
 	right: 888px;
 
-	background-image: url('../images/presentation/index-presentation/mustard.png');
+	background-image: url('../images/presentation/index-presentation/mustard.webp');
 }
 
 .spice_mustard.animated {
@@ -402,7 +402,7 @@ main.hidden {
 
 	right: 589px;
 
-	background-image: url('../images/presentation/index-presentation/coriander.png');
+	background-image: url('../images/presentation/index-presentation/coriander.webp');
 }
 
 .spice_coriander.animated {
@@ -414,7 +414,7 @@ main.hidden {
 
 	right: 285px;
 
-	background-image: url('../images/presentation/index-presentation/cinnamon.png');
+	background-image: url('../images/presentation/index-presentation/cinnamon.webp');
 }
 
 .spice_cinnamon.animated {
@@ -519,7 +519,7 @@ main.hidden {
 	color: var(--black);
 	background-color: var(--white);
 
-	background-image: url('../images/menu-preview-bgr.png');
+	background-image: url('../images/menu-preview-bgr.webp');
 	background-position: top right;
 	background-repeat: no-repeat;
 }
@@ -919,13 +919,13 @@ option {
 }
 
 .calories__item.calories_starters {
-	background-image: url('../images/outro/starters.jpg');
+	background-image: url('../images/outro/starters.webp');
 }
 .calories__item.calories_mains {
-	background-image: url('../images/outro/mains.jpg');
+	background-image: url('../images/outro/mains.webp');
 }
 .calories__item.calories_soups {
-	background-image: url('../images/outro/soups.jpg');
+	background-image: url('../images/outro/soups.webp');
 }
 
 .calories__title {
@@ -1087,7 +1087,7 @@ option {
 }
 
 .menu-main .presentation {
-	background-image: url('../images/presentation/menu-presentation-bgr.jpg');
+	background-image: url('../images/presentation/menu-presentation-bgr.webp');
 }
 
 .menu {
@@ -1163,7 +1163,7 @@ option {
 .contacts-main .presentation {
 	position: relative;
 
-	background-image: url('../images/presentation/contact-presentation-bgr.jpg');
+	background-image: url('../images/presentation/contact-presentation-bgr.webp');
 }
 
 .presentation__hours {
@@ -1320,7 +1320,7 @@ option {
 /*------------------------------------ABOUT*/
 
 .about-main .presentation {
-	background-image: url('../images/presentation/about-presentation-bgr.jpg');
+	background-image: url('../images/presentation/about-presentation-bgr.webp');
 }
 
 .about-main .presentation .container{
@@ -1419,7 +1419,7 @@ option {
 	color: var(--white);
 	text-align: center;
 
-	background-image: url('../images/about/video-preview.jpg');
+	background-image: url('../images/about/video-preview.webp');
 }
 
 .video-preview .section__subtitle {
@@ -1536,7 +1536,7 @@ option {
 }
 
 .blogs-main .presentation {
-	background-image: url('../images/presentation/blogs-presentation-bgr.jpg');
+	background-image: url('../images/presentation/blogs-presentation-bgr.webp');
 }
 
 .blogs__article {
@@ -1569,7 +1569,7 @@ option {
 /*------------------------------------ARTICLE*/
 .article-main .presentation {
 	padding: 242px 0 160px;
-	background-image: url('../images/presentation/article-presentation-bgr.jpg');
+	background-image: url('../images/presentation/article-presentation-bgr.webp');
 }
 
 .article-main .presentation .container {
@@ -1642,7 +1642,7 @@ option {
 
 	margin-top: 106px;
 
-	background-image: url('../images/article-meat/quote.jpg');
+	background-image: url('../images/article-meat/quote.webp');
 	background-size: cover;
 }
 
