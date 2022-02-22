@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: regular;
+	src: url("../fonts/Lato-Regular.ttf") format("opentype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: bold;
+	src: url("../fonts/Lato-Bold.ttf") format("opentype");
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: "Lato";
+	font-style: italic;
+	font-weight: bold;
+	src: url("../fonts/Lato-BoldItalic.ttf") format("opentype");
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: "Rufina";
+	font-style: italic;
+	font-weight: regular;
+	src: url("../fonts/Rufina-Regular.ttf") format("opentype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rufina";
+	font-style: italic;
+	font-weight: bold;
+	src: url("../fonts/Rufina-Bold.ttf") format("opentype");
+	font-display: swap;
+}
