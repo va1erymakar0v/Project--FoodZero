@@ -709,12 +709,12 @@ main.hidden {
 }
 
 .article__author > *:not(:first-child) {
-	margin-left: 14px;
+	margin-left: 25px;
 }
 
 .author__image {
-	width: 100px;
-	height: 100px;
+	width: 60px;
+	height: 60px;
 
 	border-radius: 50%;
 }
@@ -1688,6 +1688,8 @@ option {
 .author-outro__info {
 	display: flex;
 	flex-direction: column;
+
+	margin-left: 30px;
 }
 
 .author-outro__name {
