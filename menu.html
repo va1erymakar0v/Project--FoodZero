@@ -14,7 +14,7 @@
     <title>FoodZero</title>
   </head>
   <body>
-    <header class="page-header">
+    <header class="header">
       <div class="header__block">
         <div class="container">
           <div class="header__controls">
@@ -58,21 +58,21 @@
               <a class="header__contact-phone" href="tel:+1+86852346000">+1+86 852 346 000</a>
               <a class="header__contact-email" href="mailto:info@foodzero.com">info@foodzero.com</a>
               <a class="header__contact-address" href="https://goo.gl/maps/n8Y7d1azujjerAZP7">1959 Sepulveda Blvd.<br>Culver City, CA, 90230</a>
-              <ul class="socials">
+              <ul class="social">
                 <li class="social__item">
-                  <a class="social__link social_instagram" href="" target="_blank"></a>
+                  <a class="social__link social__link--instagram" href="" target="_blank"></a>
                   <span class="visually-hidden">Our instagram page</span>
                 </li>
                 <li class="social__item">
-                  <a class="social__link social_twitter" href="" target="_blank"></a>
+                  <a class="social__link social__link--twitter" href="" target="_blank"></a>
                   <span class="visually-hidden">Our twitter page</span>
                 </li>
                 <li class="social__item">
-                  <a class="social__link social_facebook" href="" target="_blank"></a>
+                  <a class="social__link social__link--facebook" href="" target="_blank"></a>
                   <span class="visually-hidden">Our facebook page</span>
                 </li>
                 <li class="social__item">
-                  <a class="social__link social_youtube" href="" target="_blank"></a>
+                  <a class="social__link social__link--youtube" href="" target="_blank"></a>
                   <span class="visually-hidden">Our youtube channel</span>
                 </li>
               </ul>
@@ -84,19 +84,21 @@
 
     <main class="menu-main">
       <section class="presentation">
+				<h3 class="visually-hidden">Presentation</h3>
         <div class="container">
-          <span class="presentation__heading">View Our <br> New Menu</span>
+					<h1 class="visually-hidden">Menu</h1>
+          <span class="presentation-heading">View Our <br> New Menu</span>
           <p class="presentation__subtitle">The freshest ingredients for you every day</p>
         </div>
       </section>
       <section class="menu" id="menu-paper">
         <div class="container">
-          <h2 class="section__title" id="menu-starters">Starters</h2>
-          <p class="section__subtitle">This is a section of your menu. Give your section a brief description</p>
+          <h2 class="section-title" id="menu-starters">Starters</h2>
+          <p class="section-subtitle">This is a section of your menu. Give your section a brief description</p>
 
           <div class="menu__section">
             <img class="menu__image" src="images/menu/starters.webp" alt="vegetables salad" width="792" height="989">
-            <ul class="menu__list starters__list">
+            <ul class="menu starters-list">
               <li class="menu__item">
                 <span class="menu__price">$20</span>
                 <span class="menu__meal">Grilled Okra and Tomatoes </span>
@@ -113,14 +115,14 @@
                 <span class="menu__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
               </li>
             </ul>
-            <div class="decorative-bgr decorative_blueberry"></div>
+            <div class="decorative-bgr decorative-bgr--blueberry"></div>
           </div>
 
-          <h2 class="section__title" id="menu-mains">Mains</h2>
-          <p class="section__subtitle">This is a section of your menu. Give your section a brief description</p>
+          <h2 class="section-title" id="menu-mains">Mains</h2>
+          <p class="section-subtitle">This is a section of your menu. Give your section a brief description</p>
 
           <div class="menu__section">
-            <ul class="menu__list mains__list">
+            <ul class="menu mains-list">
               <li class="menu__item">
                 <span class="menu__price">$20</span>
                 <span class="menu__meal">Deep Sea Snow White Cod Fillet</span>
@@ -140,12 +142,12 @@
             <img class="menu__image" src="images/menu/mains.webp" alt="steak" width="792" height="989">
           </div>
 
-          <h2 class="section__title" id="menu-drinks">Pastries & Drinks</h2>
-          <p class="section__subtitle">This is a section of your menu. Give your section a brief description</p>
+          <h2 class="section-title" id="menu-drinks">Pastries & Drinks</h2>
+          <p class="section-subtitle">This is a section of your menu. Give your section a brief description</p>
 
           <div class="menu__section">
             <img class="menu__image" src="images/menu/drinks.webp" alt="vegetables salad" width="792" height="989">
-            <ul class="menu__list drinks__list">
+            <ul class="menu drinks-list">
               <li class="menu__item">
                 <span class="menu__price">$158</span>
                 <span class="menu__meal">Wine Pairing</span>
@@ -162,7 +164,7 @@
                 <span class="menu__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
               </li>
             </ul>
-            <div class="decorative-bgr decorative_avocado"></div>
+            <div class="decorative-bgr decorative-bgr--avocado"></div>
           </div>
         </div>
       </section>
@@ -170,11 +172,11 @@
       <iframe name="stayhere" style="display: none"></iframe>
       <section class="index-form">
         <div class="container">
-          <h2 class="section__title">Make a Reservation</h2>
-          <p class="section__subtitle">Get in touch with restaurant</p>
+          <h2 class="section-title">Make a Reservation</h2>
+          <p class="section-subtitle">Get in touch with restaurant</p>
 
-          <form class="index-form__form" action="" method="post" target="stayhere">
-            <div class="form__wrapper">
+          <form class="index-form__form" action="mailto:valerythf@outlook.com" method="post" target="stayhere">
+            <div class="form-wrapper">
               <input class="index-form__input" type="text" placeholder="18/02/2022">
               <select class="index-form__input">
                 <option value="14">14:00</option>
@@ -201,7 +203,7 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="footer">
       <div class="footer__info">
         <div class="container">
           <a href="index.html">
@@ -215,7 +217,7 @@
           </section>
           <section class="footer__subscribe">
             <h3 class="footer__title">Never Miss a Recipe</h3>
-            <form class="footer__form" action="" method="post">
+            <form class="footer__form" action="mailto:valerythf@outlook.com" method="post">
               <label class="footer__label">
                 <input class="input input_white" type="email" placeholder="Email Address">
                 Join our subscribers and get best recipe delivered each week!
@@ -225,24 +227,24 @@
           </section>
         </div>
       </div>
-      <div class="footer__copyright">
+      <div class="copyright">
         <div class="container">
           <span class="copyright__text">© 2020 Zero Inc. All rights Reserved</span>
-          <ul class="socials">
+          <ul class="social">
             <li class="social__item">
-              <a class="social__link social_instagram" href="" target="_blank"></a>
+              <a class="social__link social__link--instagram" href="" target="_blank"></a>
               <span class="visually-hidden">Our instagram page</span>
             </li>
             <li class="social__item">
-              <a class="social__link social_twitter" href="" target="_blank"></a>
+              <a class="social__link social__link--twitter" href="" target="_blank"></a>
               <span class="visually-hidden">Our twitter page</span>
             </li>
             <li class="social__item">
-              <a class="social__link social_facebook" href="" target="_blank"></a>
+              <a class="social__link social__link--facebook" href="" target="_blank"></a>
               <span class="visually-hidden">Our facebook page</span>
             </li>
             <li class="social__item">
-              <a class="social__link social_youtube" href="" target="_blank"></a>
+              <a class="social__link social__link--youtube" href="" target="_blank"></a>
               <span class="visually-hidden">Our youtube channel</span>
             </li>
           </ul>

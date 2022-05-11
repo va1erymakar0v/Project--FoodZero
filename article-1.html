@@ -14,7 +14,7 @@
     <title>FoodZero</title>
   </head>
   <body>
-    <header class="page-header">
+    <header class="header">
       <div class="header__block">
         <div class="container">
           <div class="header__controls">
@@ -58,21 +58,21 @@
               <a class="header__contact-phone" href="tel:+1+86852346000">+1+86 852 346 000</a>
               <a class="header__contact-email" href="mailto:info@foodzero.com">info@foodzero.com</a>
               <a class="header__contact-address" href="https://goo.gl/maps/n8Y7d1azujjerAZP7">1959 Sepulveda Blvd.<br>Culver City, CA, 90230</a>
-              <ul class="socials">
+              <ul class="social">
                 <li class="social__item">
-                  <a class="social__link social_instagram" href="" target="_blank"></a>
+                  <a class="social__link social__link--instagram" href="" target="_blank"></a>
                   <span class="visually-hidden">Our instagram page</span>
                 </li>
                 <li class="social__item">
-                  <a class="social__link social_twitter" href="" target="_blank"></a>
+                  <a class="social__link social__link--twitter" href="" target="_blank"></a>
                   <span class="visually-hidden">Our twitter page</span>
                 </li>
                 <li class="social__item">
-                  <a class="social__link social_facebook" href="" target="_blank"></a>
+                  <a class="social__link social__link--facebook" href="" target="_blank"></a>
                   <span class="visually-hidden">Our facebook page</span>
                 </li>
                 <li class="social__item">
-                  <a class="social__link social_youtube" href="" target="_blank"></a>
+                  <a class="social__link social__link--youtube" href="" target="_blank"></a>
                   <span class="visually-hidden">Our youtube channel</span>
                 </li>
               </ul>
@@ -84,22 +84,24 @@
 
     <main class="article-main">
       <section class="presentation">
+				<h1 class="visually-hidden">Article</h1>
         <div class="container">
           <span class="presentation__tag">Fashion</span>
-          <span class="presentation__heading">Three Ideas for Cooking Goat Meat at Home</span>
+          <span class="presentation-heading">Three Ideas for Cooking Goat Meat at Home</span>
           <div class="presentation__author">
-            <div class="article__author">
+            <div class="author">
               <img class="author__image" src="images/blog-authors/dianne.webp" alt="author: julie christie" width="100" height="100">
               <span class="author__name">Dianne Russell</span>
-              <span class="article__date">October 17,2021</span>
-              <span class="article__time">3:33 pm</span>
-              <span class="article__comments">2 comments</span>
+              <span class="article-date">October 17,2021</span>
+              <span class="article-time">3:33 pm</span>
+              <span class="article-comments">2 comments</span>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="article-content">
+      <section class="content">
+				<h2 class="visually-hidden">Article</h2>
           <div class="content__intro">
             <div class="container">
               <p class="content__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl. Augue habitant accumsan, ut parturient orci ac etiam congue mi. Elementum pellentesque non hendrerit et pharetra tellus leo tempus tellus.</p>
@@ -122,16 +124,17 @@
         </div>
       </section>
 
-      <section class="article__info">
+      <section class="article-info">
+				<h3 class="visually-hidden">Article tags</h3>
         <div class="container">
-          <div class="article__tags-list">
-            <span class="article__tags-heading">Tags:</span>
+          <div class="article-tags-list">
+            <span class="article-tags-heading">Tags:</span>
             <ul class="tags">
               <li class="tags__item">Fashion</li>
             </ul>
           </div>
 
-          <div class="article__author-outro">
+          <div class="author-outro">
             <img src="images/blog-authors/julie-big.webp" alt="blog author: julie" class="author-outro__image" width="220" height="220">
             <div class="author-outro__info">
               <span class="author-outro__name">Julie Christie</span>
@@ -142,15 +145,16 @@
       </section>
 
       <section class="related">
+				<h3 class="visually-hidden">Related posts</h3>
         <div class="container">
           <span class="related__title">Related Posts</span>
-          <ul class="blogs__list">
-            <li class="blogs__article">
+          <ul class="blogs">
+            <li class="article">
               <a class="blogs__link" href="blogs.html">
                 <span class="article__tag">Fashion</span>
                 <img class="article__cover" src="images/blog-covers/article-fruit.webp" alt="peach fruit dessert: cover of the article about fruits" width="792" height="792">
               </a>
-              <div class="article__author">
+              <div class="author">
                 <img src="images/blog-authors/julie.webp" alt="author: julie christie" class="author__image" width="60" height="60">
                 <span class="author__name">Julie Christie</span>
                 <span class="article__date">October 17,2021</span>
@@ -162,12 +166,12 @@
               <a class="article__link" href="blogs.html">Read More</a>
             </li>
 
-            <li class="blogs__article">
+            <li class="article">
               <a class="blogs__link" href="blogs.html">
                 <span class="article__tag">Fashion</span>
                 <img class="article__cover" src="images/blog-covers/article-meat.webp" alt="peach fruit dessert: cover of the article about meat" width="792" height="792">
               </a>
-              <div class="article__author">
+              <div class="author">
                 <img class="author__image" src="images/blog-authors/dianne.webp" alt="author: julie christie" width="100" height="100">
                 <span class="author__name">Dianne Russell</span>
                 <span class="article__date">October 17,2021</span>
@@ -183,7 +187,7 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="footer">
       <div class="footer__info">
         <div class="container">
           <a href="index.html">
@@ -197,7 +201,7 @@
           </section>
           <section class="footer__subscribe">
             <h3 class="footer__title">Never Miss a Recipe</h3>
-            <form class="footer__form" action="" method="post">
+            <form class="footer__form" action="mailto:valerythf@outlook.com" method="post">
               <label class="footer__label">
                 <input class="input input_white" type="email" placeholder="Email Address">
                 Join our subscribers and get best recipe delivered each week!
@@ -207,24 +211,24 @@
           </section>
         </div>
       </div>
-      <div class="footer__copyright">
+      <div class="copyright">
         <div class="container">
           <span class="copyright__text">© 2020 Zero Inc. All rights Reserved</span>
-          <ul class="socials">
+          <ul class="social">
             <li class="social__item">
-              <a class="social__link social_instagram" href="" target="_blank"></a>
+              <a class="social__link social__link--instagram" href="" target="_blank"></a>
               <span class="visually-hidden">Our instagram page</span>
             </li>
             <li class="social__item">
-              <a class="social__link social_twitter" href="" target="_blank"></a>
+              <a class="social__link social__link--twitter" href="" target="_blank"></a>
               <span class="visually-hidden">Our twitter page</span>
             </li>
             <li class="social__item">
-              <a class="social__link social_facebook" href="" target="_blank"></a>
+              <a class="social__link social__link--facebook" href="" target="_blank"></a>
               <span class="visually-hidden">Our facebook page</span>
             </li>
             <li class="social__item">
-              <a class="social__link social_youtube" href="" target="_blank"></a>
+              <a class="social__link social__link--youtube" href="" target="_blank"></a>
               <span class="visually-hidden">Our youtube channel</span>
             </li>
           </ul>
