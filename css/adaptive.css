@@ -1084,6 +1084,11 @@
 		padding: 50px 0;
 	}
 
+	.article-time,
+	.article-comments {
+		display: none;
+	}
+
 	.process__slice img, 
 	.process__pickled img, 
 	.process__bake img, 
